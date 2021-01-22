@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AGAA,AAAA,aAAa,AAAA,CACT,WAAW,CAAE,sBAAsB,CACnC,SAAS,CAAE,IAAI,CACf,KAAK,CFAI,OAAO,CECnB,AAED,AAAA,OAAO,AAAA,CACH,KAAK,CFJI,OAAO,CEKhB,cAAc,CAAE,SAAS,CAC5B",
+    "sources": [
+        "../sass/style.scss",
+        "../sass/partials/_base.scss",
+        "../sass/partials/_layout.scss",
+        "../sass/partials/_nav.scss"
+    ],
+    "names": [],
+    "file": "style.min.css"
+}
