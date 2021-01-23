@@ -35,6 +35,7 @@
 
 .row .bg-sec {
   background: #c32c72;
+  border: 5px solid white;
 }
 
 /*Main element, of nav*/
