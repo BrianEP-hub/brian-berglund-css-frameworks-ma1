@@ -1,0 +1,28 @@
+.wrapper{
+    min-height: 95vh;
+    background-color: $color-background;
+}
+.page-header{
+   display: flex;
+   & h1{
+       margin: 5% auto;
+   }
+}
+.row{
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    & .card{
+        height: 240px;
+        border-radius: 5%;
+        margin: 4%;
+        background-color: $color-primary;
+    }
+    & .bg-wht{
+        background-color: white;
+        border: 5px solid $color-secondary;
+    }
+    & .bg-sec{
+        background: $color-secondary;
+    }
+}

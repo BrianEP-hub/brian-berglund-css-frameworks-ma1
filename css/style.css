@@ -1,3 +1,38 @@
+.wrapper {
+  min-height: 95vh;
+  background-color: #e5e5e5;
+}
+
+.page-header {
+  display: flex;
+}
+
+.page-header h1 {
+  margin: 5% auto;
+}
+
+.row {
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+}
+
+.row .card {
+  height: 240px;
+  border-radius: 5%;
+  margin: 4%;
+  background-color: #f4f3ee;
+}
+
+.row .bg-wht {
+  background-color: white;
+  border: 5px solid #c32c72;
+}
+
+.row .bg-sec {
+  background: #c32c72;
+}
+
 .navbar-brand {
   font-family: "OpenSans", sans-serif;
   font-size: 32px;
@@ -5,7 +40,30 @@
 }
 
 .navbar {
+  background-color: #f4f3ee;
   color: #262626;
   text-transform: uppercase;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  background-color: #f4f3ee;
+}
+
+footer p, footer a {
+  padding-top: 5%;
+  justify-content: center;
+  align-items: center;
+  color: #8d8d8d;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column;
+  }
 }
 /*# sourceMappingURL=style.css.map */
