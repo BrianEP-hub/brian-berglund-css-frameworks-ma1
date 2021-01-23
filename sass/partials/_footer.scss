@@ -1,4 +1,5 @@
 footer{
+    /*Adding style and spacing of the content elements of the footer*/
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,6 +12,8 @@ footer{
         color: #8d8d8d;
         text-decoration: none;
     }
+
+    /*Change direction of flex for smaller screens*/
     @media(max-width: 768px){
         flex-direction: column;
     }

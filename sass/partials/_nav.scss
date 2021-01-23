@@ -1,9 +1,10 @@
+/*Main element, of nav*/
 .navbar-brand{
     font-family: "OpenSans", sans-serif;
     font-size: 32px;
     color: $color-text;
 }
-
+/*Change color and text of the NAV elements*/
 .navbar{
     background-color: $color-primary;
     color: $color-text;

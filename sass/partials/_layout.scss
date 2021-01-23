@@ -1,13 +1,16 @@
+/*Wrapper to cover the full site, allowing room for footer below*/
 .wrapper{
     min-height: 95vh;
     background-color: $color-background;
 }
+/*Centering the page header*/
 .page-header{
    display: flex;
    & h1{
        margin: 5% auto;
    }
 }
+/*Single row element, combined with CDN bootstrap, only needing to style the color of the different cards*/
 .row{
     justify-content: center;
     width: 100%;
